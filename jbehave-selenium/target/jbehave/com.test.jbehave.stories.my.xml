@@ -1,0 +1,146 @@
+<story path="com/test/jbehave/stories/my.story" title="">
+<scenario keyword="Scenario:" title="Su&#65533;te de Teste Efetuar &#65533;Pr&#65533; Compra">
+<step outcome="pending" keyword="PENDING">Given acesso um site para gerar um numero do cart&#65533;o</step>
+<pendingMethod>@Given(&quot;acesso um site para gerar um numero do cart\uFFFDo&quot;)
+@Pending
+public void givenAcessoUmSiteParaGerarUmNumeroDoCarto() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Caso de Teste Informar Dados Cadastrais">
+<step outcome="failed" keyword="FAILED">Given acesso o site da Americanas<failure>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;DT07064&apos;, ip: &apos;10.1.12.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4bb74f - &lt;no info&gt;
+   1:           0x4bbea9 - &lt;no info&gt;
+   2:           0x448c00 - &lt;no info&gt;
+   3:           0x4203e1 - &lt;no info&gt;
+   4:           0x407dc7 - &lt;no info&gt;
+   5:           0x6d95b9 - &lt;no info&gt;
+   6:           0x4173a7 - &lt;no info&gt;
+   7:           0x6d38b3 - &lt;no info&gt;
+   8:     0x7ffb8fcf2774 - BaseThreadInitThunk</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then realizar login com o usuario: <parameter>cleber.giordani@zup.com</parameter> e senha: <parameter>eutuele1</parameter></step>
+<step outcome="ignorable">!-- Resultados esperados:</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then devo acessar minha conta</step>
+<step outcome="pending" keyword="PENDING">And Validar que o usu&#65533;rio n&#65533;o possui pedidos recentes</step>
+<step outcome="pending" keyword="PENDING">Then Validar se o endere&#65533;o informado &#65533; o mesmo que o cadastrado: Rua Germano Wetzel, 545 - 101 - Chamar Portaria</step>
+<step outcome="pending" keyword="PENDING">Then Validar a presen&#65533;a do bot&#65533;o &#65533;ver todos os pedidos&#65533;</step>
+<step outcome="pending" keyword="PENDING">And Validar se o nome do Usu&#65533;rio corresponde ao mesmo que foi cadastrado: Cleber Giordani</step>
+<pendingMethod>@Then(&quot;Validar que o usu\uFFFDrio n\uFFFDo possui pedidos recentes&quot;)
+@Pending
+public void thenValidarQueOUsurioNoPossuiPedidosRecentes() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Validar se o endere\uFFFDo informado \uFFFD o mesmo que o cadastrado: Rua Germano Wetzel, 545 - 101 - Chamar Portaria&quot;)
+@Pending
+public void thenValidarSeOEndereoInformadoOMesmoQueOCadastradoRuaGermanoWetzel545101ChamarPortaria() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Validar a presen\uFFFDa do bot\uFFFDo \uFFFDver todos os pedidos\uFFFD&quot;)
+@Pending
+public void thenValidarAPresenaDoBotoverTodosOsPedidos() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Validar se o nome do Usu\uFFFDrio corresponde ao mesmo que foi cadastrado: Cleber Giordani&quot;)
+@Pending
+public void thenValidarSeONomeDoUsurioCorrespondeAoMesmoQueFoiCadastradoCleberGiordani() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Caso de Teste Selecionar Compra">
+<step outcome="ignorable">!-- Pr&#65533;-condi&#65533;&#65533;o:</step>
+<step outcome="failed" keyword="FAILED">Given retorno a pagina inicial do site Americanas<failure>java.lang.NullPointerException</failure></step>
+<step outcome="ignorable">!-- Resultado Esperado</step>
+<step outcome="pending" keyword="PENDING">Then irei buscar o produto com o c&#65533;digo: 131916705 e selecionar o mesmo</step>
+<step outcome="pending" keyword="PENDING">Then Validar todas as informa&#65533;&#65533;es referentes ao produto:Philco PH49F30DSGWA Full HD com Conversor Digital 2 HDMI 2 USB Wi-Fi Android</step>
+<pendingMethod>@Then(&quot;irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo&quot;)
+@Pending
+public void thenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;Validar todas as informa\uFFFD\uFFFDes referentes ao produto:Philco PH49F30DSGWA Full HD com Conversor Digital 2 HDMI 2 USB Wi-Fi Android&quot;)
+@Pending
+public void thenValidarTodasAsInformaesReferentesAoProdutoPhilcoPH49F30DSGWAFullHDComConversorDigital2HDMI2USBWiFiAndroid() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Caso de Teste Realizar Compra">
+<step outcome="ignorable">!-- Pr&#65533;-condi&#65533;&#65533;o:</step>
+<step outcome="pending" keyword="PENDING">Given irei buscar o produto com o c&#65533;digo: 131916705 e selecionar o mesmo</step>
+<step outcome="pending" keyword="PENDING">Then irei clicar no bot&#65533;o Comprar</step>
+<step outcome="ignorable">!-- Resultado Esperado:</step>
+<step outcome="pending" keyword="PENDING">Then validar que a mensagem de Garantia e Seguro a seguir &#65533; exibida: Contrate a garantia estendida original e garanta tranquilidade e seguran&#65533;a por mais tempo</step>
+<step outcome="pending" keyword="PENDING">Then verifico se a op&#65533;&#65533;o de garantia a seguir &#65533; exibida: Sem Garantia Estendida</step>
+<pendingMethod>@Given(&quot;irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo&quot;)
+@Pending
+public void givenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;irei clicar no bot\uFFFDo Comprar&quot;)
+@Pending
+public void thenIreiClicarNoBotoComprar() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;validar que a mensagem de Garantia e Seguro a seguir \uFFFD exibida: Contrate a garantia estendida original e garanta tranquilidade e seguran\uFFFDa por mais tempo&quot;)
+@Pending
+public void thenValidarQueAMensagemDeGarantiaESeguroASeguirExibidaContrateAGarantiaEstendidaOriginalEGarantaTranquilidadeESeguranaPorMaisTempo() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;verifico se a op\uFFFD\uFFFDo de garantia a seguir \uFFFD exibida: Sem Garantia Estendida&quot;)
+@Pending
+public void thenVerificoSeAOpoDeGarantiaASeguirExibidaSemGarantiaEstendida() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Preencher o CEP em &#65533;Minha Cesta&#65533;">
+<step outcome="ignorable">!-- Pr&#65533;-condi&#65533;&#65533;es:  Usu&#65533;rio deve estar na p&#65533;gina de op&#65533;&#65533;es de seguro e garantia estendida.</step>
+<step outcome="pending" keyword="PENDING">Given irei buscar o produto com o c&#65533;digo: 131916705 e selecionar o mesmo</step>
+<step outcome="pending" keyword="PENDING">Then irei clicar no bot&#65533;o Comprar</step>
+<step outcome="pending" keyword="PENDING">Then verifico se a op&#65533;&#65533;o de garantia a seguir &#65533; exibida: Sem Garantia Estendida</step>
+<step outcome="ignorable">!-- Resultado Esperado</step>
+<step outcome="pending" keyword="PENDING">Then irei clicar no bot&#65533;o Continuar</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then deverei informar o Cep: <parameter>89070-530</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then devo informar o tipo de entrega: <parameter>Econ&#65533;mica</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then devo informar o tipo de entrega: <parameter>R&#65533;pida</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then deverei validar o valor da entrega de: <parameter>39.99</parameter> e o valor total do produto de: <parameter>2.089.98</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And informar o numero do cartao de credito</step>
+<pendingMethod>@Given(&quot;irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo&quot;)
+@Pending
+public void givenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;irei clicar no bot\uFFFDo Comprar&quot;)
+@Pending
+public void thenIreiClicarNoBotoComprar() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;verifico se a op\uFFFD\uFFFDo de garantia a seguir \uFFFD exibida: Sem Garantia Estendida&quot;)
+@Pending
+public void thenVerificoSeAOpoDeGarantiaASeguirExibidaSemGarantiaEstendida() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;irei clicar no bot\uFFFDo Continuar&quot;)
+@Pending
+public void thenIreiClicarNoBotoContinuar() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

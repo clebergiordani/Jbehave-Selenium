@@ -1,0 +1,149 @@
+
+(com/test/jbehave/stories/my.story)
+Scenario: Su?te de Teste Efetuar ?Pr? Compra
+Given acesso um site para gerar um numero do cart?o (PENDING)
+@Given("acesso um site para gerar um numero do cart\uFFFDo")
+@Pending
+public void givenAcessoUmSiteParaGerarUmNumeroDoCarto() {
+  // PENDING
+}
+
+
+Scenario: Caso de Teste Informar Dados Cadastrais
+Given acesso o site da Americanas (FAILED)
+(org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DT07064', ip: '10.1.12.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4bb74f - <no info>
+   1:           0x4bbea9 - <no info>
+   2:           0x448c00 - <no info>
+   3:           0x4203e1 - <no info>
+   4:           0x407dc7 - <no info>
+   5:           0x6d95b9 - <no info>
+   6:           0x4173a7 - <no info>
+   7:           0x6d38b3 - <no info>
+   8:     0x7ffb8fcf2774 - BaseThreadInitThunk)
+Then realizar login com o usuario: cleber.giordani@zup.com e senha: eutuele1 (NOT PERFORMED)
+!-- Resultados esperados:
+Then devo acessar minha conta (NOT PERFORMED)
+And Validar que o usu?rio n?o possui pedidos recentes (PENDING)
+Then Validar se o endere?o informado ? o mesmo que o cadastrado: Rua Germano Wetzel, 545 - 101 - Chamar Portaria (PENDING)
+Then Validar a presen?a do bot?o ?ver todos os pedidos? (PENDING)
+And Validar se o nome do Usu?rio corresponde ao mesmo que foi cadastrado: Cleber Giordani (PENDING)
+@Then("Validar que o usu\uFFFDrio n\uFFFDo possui pedidos recentes")
+@Pending
+public void thenValidarQueOUsurioNoPossuiPedidosRecentes() {
+  // PENDING
+}
+
+@Then("Validar se o endere\uFFFDo informado \uFFFD o mesmo que o cadastrado: Rua Germano Wetzel, 545 - 101 - Chamar Portaria")
+@Pending
+public void thenValidarSeOEndereoInformadoOMesmoQueOCadastradoRuaGermanoWetzel545101ChamarPortaria() {
+  // PENDING
+}
+
+@Then("Validar a presen\uFFFDa do bot\uFFFDo \uFFFDver todos os pedidos\uFFFD")
+@Pending
+public void thenValidarAPresenaDoBotoverTodosOsPedidos() {
+  // PENDING
+}
+
+@Then("Validar se o nome do Usu\uFFFDrio corresponde ao mesmo que foi cadastrado: Cleber Giordani")
+@Pending
+public void thenValidarSeONomeDoUsurioCorrespondeAoMesmoQueFoiCadastradoCleberGiordani() {
+  // PENDING
+}
+
+
+Scenario: Caso de Teste Selecionar Compra
+!-- Pr?-condi??o:
+Given retorno a pagina inicial do site Americanas (FAILED)
+(java.lang.NullPointerException)
+!-- Resultado Esperado
+Then irei buscar o produto com o c?digo: 131916705 e selecionar o mesmo (PENDING)
+Then Validar todas as informa??es referentes ao produto:Philco PH49F30DSGWA Full HD com Conversor Digital 2 HDMI 2 USB Wi-Fi Android (PENDING)
+@Then("irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo")
+@Pending
+public void thenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+
+@Then("Validar todas as informa\uFFFD\uFFFDes referentes ao produto:Philco PH49F30DSGWA Full HD com Conversor Digital 2 HDMI 2 USB Wi-Fi Android")
+@Pending
+public void thenValidarTodasAsInformaesReferentesAoProdutoPhilcoPH49F30DSGWAFullHDComConversorDigital2HDMI2USBWiFiAndroid() {
+  // PENDING
+}
+
+
+Scenario: Caso de Teste Realizar Compra
+!-- Pr?-condi??o:
+Given irei buscar o produto com o c?digo: 131916705 e selecionar o mesmo (PENDING)
+Then irei clicar no bot?o Comprar (PENDING)
+!-- Resultado Esperado:
+Then validar que a mensagem de Garantia e Seguro a seguir ? exibida: Contrate a garantia estendida original e garanta tranquilidade e seguran?a por mais tempo (PENDING)
+Then verifico se a op??o de garantia a seguir ? exibida: Sem Garantia Estendida (PENDING)
+@Given("irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo")
+@Pending
+public void givenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+
+@Then("irei clicar no bot\uFFFDo Comprar")
+@Pending
+public void thenIreiClicarNoBotoComprar() {
+  // PENDING
+}
+
+@Then("validar que a mensagem de Garantia e Seguro a seguir \uFFFD exibida: Contrate a garantia estendida original e garanta tranquilidade e seguran\uFFFDa por mais tempo")
+@Pending
+public void thenValidarQueAMensagemDeGarantiaESeguroASeguirExibidaContrateAGarantiaEstendidaOriginalEGarantaTranquilidadeESeguranaPorMaisTempo() {
+  // PENDING
+}
+
+@Then("verifico se a op\uFFFD\uFFFDo de garantia a seguir \uFFFD exibida: Sem Garantia Estendida")
+@Pending
+public void thenVerificoSeAOpoDeGarantiaASeguirExibidaSemGarantiaEstendida() {
+  // PENDING
+}
+
+
+Scenario: Preencher o CEP em ?Minha Cesta?
+!-- Pr?-condi??es:  Usu?rio deve estar na p?gina de op??es de seguro e garantia estendida.
+Given irei buscar o produto com o c?digo: 131916705 e selecionar o mesmo (PENDING)
+Then irei clicar no bot?o Comprar (PENDING)
+Then verifico se a op??o de garantia a seguir ? exibida: Sem Garantia Estendida (PENDING)
+!-- Resultado Esperado
+Then irei clicar no bot?o Continuar (PENDING)
+Then deverei informar o Cep: 89070-530 (NOT PERFORMED)
+Then devo informar o tipo de entrega: Econ?mica (NOT PERFORMED)
+Then devo informar o tipo de entrega: R?pida (NOT PERFORMED)
+Then deverei validar o valor da entrega de: 39.99 e o valor total do produto de: 2.089.98 (NOT PERFORMED)
+And informar o numero do cartao de credito (NOT PERFORMED)
+@Given("irei buscar o produto com o c\uFFFDdigo: 131916705 e selecionar o mesmo")
+@Pending
+public void givenIreiBuscarOProdutoComOCdigo131916705ESelecionarOMesmo() {
+  // PENDING
+}
+
+@Then("irei clicar no bot\uFFFDo Comprar")
+@Pending
+public void thenIreiClicarNoBotoComprar() {
+  // PENDING
+}
+
+@Then("verifico se a op\uFFFD\uFFFDo de garantia a seguir \uFFFD exibida: Sem Garantia Estendida")
+@Pending
+public void thenVerificoSeAOpoDeGarantiaASeguirExibidaSemGarantiaEstendida() {
+  // PENDING
+}
+
+@Then("irei clicar no bot\uFFFDo Continuar")
+@Pending
+public void thenIreiClicarNoBotoContinuar() {
+  // PENDING
+}
+
+
+

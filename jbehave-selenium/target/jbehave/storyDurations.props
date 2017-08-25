@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Aug 25 16:53:34 BRT 2017
+com/test/jbehave/stories/my.story=7000
+threads=1
+total=7000
+threadAverage=7000
