@@ -31,8 +31,8 @@ public class MySteps {
 		driver.findElement(By.xpath(".//*[@id='h_user']/span[2]/div/ul/li[1]/a")).click();
 	}
 	
-	@When("Validar que o usuário não possui pedidos recentes")
-	@Then("Validar que o usuário não possui pedidos recentes")
+	@When("Validar que o usuario nao possui pedidos recentes")
+	@Then("Validar que o usuario nao possui pedidos recentes")
 	public void validarPedidosRecentes() throws Exception{
 		Thread.sleep(4000);
 		Assert.assertEquals("você não tem pedidos recentes.", driver.findElement(By.xpath(".//*[@id='mainUiView']/div/div[5]/div/div/h4[1]/strong")).getText());
@@ -140,7 +140,7 @@ public class MySteps {
 		driver.findElement(By.id("upper-buy-button")).click();
 	}	
 	
-	@Given("acesso um site para gerar um numero do cartão")
+	@Given("acesso um site para gerar um numero do cartao")
 	public void gerarNumeroCartao(){
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
     	driver =new FirefoxDriver();
