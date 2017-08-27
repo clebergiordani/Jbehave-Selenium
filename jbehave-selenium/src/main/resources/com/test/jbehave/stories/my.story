@@ -1,6 +1,6 @@
 Scenario: Suíte de Teste Efetuar “Pré” Compra
 
-Given acesso um site para gerar um numero do cartão
+Given acesso um site para gerar um numero do cartao
 
 Scenario: Caso de Teste Informar Dados Cadastrais
 
@@ -9,7 +9,7 @@ Then realizar login com o usuario: cleber.giordani@zup.com e senha: eutuele1
 
 !-- Resultados esperados: 
 Then devo acessar minha conta
-And Validar que o usuário não possui pedidos recentes
+And Validar que o usuario nao possui pedidos recentes
 Then Validar se o endereço informado é o mesmo que o cadastrado: Rua Germano Wetzel, 545 - 101 - Chamar Portaria
 Then Validar a presença do botão “ver todos os pedidos”
 And Validar se o nome do Usuário corresponde ao mesmo que foi cadastrado: Cleber Giordani
